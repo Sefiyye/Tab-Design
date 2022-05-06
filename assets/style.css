@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .container .row {
+  width: 60%;
+  margin-left: 5%;
+}
+
+main .container .tab {
+  padding-top: 100px;
+  width: 100%;
+}
+
+main .container .tab ul {
+  font-family: 'Courier New', Courier, monospace;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .container .tab ul li {
+  list-style: none;
+  text-align: center;
+}
+
+main .container .tab ul li a {
+  border-radius: 20%;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  text-decoration: none;
+  color: gray;
+  background-color: #e6dfdf;
+  padding: 20px;
+}
+
+main .container .tab ul li a:hover {
+  background-color: #00b7ff;
+  color: white;
+}
+
+.card-body h5 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+main .container .row .img {
+  width: 70%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+main .container .row .about {
+  border-top: 2px solid #00b7ff;
+}
+/*# sourceMappingURL=style.css.map */
